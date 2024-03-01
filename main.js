@@ -100,7 +100,7 @@ function salvar() {
     var dataAtual = new Date();
     var dataAtualFormatada = dataAtual.toISOString().split("T")[0];
     document.getElementById("data").value = dataAtualFormatada;
-    document.getElementById("descricao").value = "Descrição Ativo";
+    document.getElementById("descricao").value = "";
   }
   
   
